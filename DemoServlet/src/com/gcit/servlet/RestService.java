@@ -1,6 +1,5 @@
 package com.gcit.servlet;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -82,7 +81,7 @@ public class RestService extends HttpServlet {
 				     
 					PrintWriter out = response.getWriter();
 					
-					out.print(pathInfo);
+					//out.print(pathInfo);
 					  
 					out.print(gson.toJson( users.stream()
 												.filter( user -> user.getId() == id )
@@ -144,7 +143,7 @@ public class RestService extends HttpServlet {
 			//out.print(gson.toJson(login));
 			out.flush();
 		}
-		
+
 	}
 
 }
