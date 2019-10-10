@@ -1,4 +1,4 @@
-package com.gcit.servlet;
+package com.ss.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.gcit.dto.Login;
-import com.gcit.dto.User;
+import com.ss.dto.Login;
+import com.ss.dto.User;
 import com.google.gson.Gson;
 
 /**
