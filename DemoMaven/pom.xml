@@ -46,7 +46,7 @@
 				<version>2.0</version>
 				<configuration>
 					<url>http://localhost:8080/manager/text</url>
-					<path>/rps</path>
+					<path>/DemoMaven</path>
 				</configuration>
 			</plugin>
 		</plugins>
